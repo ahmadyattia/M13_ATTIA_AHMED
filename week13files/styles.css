@@ -13,6 +13,12 @@
   src: url("./fonts/Lato/Lato-Bold.ttf");
 }
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
 }
@@ -70,4 +76,104 @@ body {
 #page-subtitle {
   font-family: "Lato Regular";
   margin: 0;
+}
+
+.grid {
+  display: grid;
+}
+
+.card {
+  padding: 2rem 3rem;
+  width: 15rem;
+}
+
+.card1 {
+  background-color: #e1a5d6;
+}
+.card2 {
+  background-color: #b7c9e7;
+}
+.card3 {
+  background-color: #fccdbe;
+}
+
+.card img {
+  width: 100%;
+}
+
+.card p {
+  font-family: "Lato Bold";
+  color: white;
+  text-align: center;
+  margin: 1rem 0 0 0;
+}
+
+#form-section {
+  padding: 2rem 3rem 2rem 2rem;
+  width: 20rem;
+  background-color: #6d5184;
+}
+
+#form-section h2 {
+  color: white;
+  font-family: "Lato Bold";
+  margin: 0 0 1rem 0;
+  text-align: center;
+}
+
+#form-section form {
+  display: flex;
+  flex-direction: column;
+  font-family: "Lato Regular";
+  color: white;
+}
+
+#form-section form input {
+  padding: 0.3rem;
+  margin: 0;
+}
+
+#form-section form label {
+  margin: 0.2rem 0;
+}
+
+#form-section form input[type="text"],
+#form-section textarea {
+  margin: 0 0.2rem;
+}
+
+#form-section form p {
+  margin: 0 0 0.4rem 0;
+}
+
+#reason-for-contacting {
+  margin: 1.5rem 0;
+}
+
+.radio-option {
+  display: flex;
+  gap: 0.2rem;
+}
+
+#form-section textarea {
+  height: 5rem;
+}
+
+#form-section button {
+  border-radius: 0.2rem;
+  width: max-content;
+  padding: 0.5rem 2rem;
+  color: #6d5184;
+  margin: 0.3rem 0 0.3rem 0.2rem;
+}
+
+#florist-card {
+  border: 2px solid #fccdbe;
+  padding: 0.5rem;
+  width: 20rem;
+}
+
+#florist-card img {
+  width: 100%;
+  height: auto;
 }
