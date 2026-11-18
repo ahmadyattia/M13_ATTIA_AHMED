@@ -1,0 +1,32 @@
+@font-face {
+  font-family: "Montserrat Medium";
+  src: url("./fonts/Montserrat/static/Montserrat-Medium.ttf");
+}
+
+@font-face {
+  font-family: "Lato Regular";
+  src: url("./fonts/Lato/Lato-Regular.ttf");
+}
+
+body {
+  margin: 0;
+}
+
+.navbar {
+  font-family: "Montserrat Medium";
+  background-image: linear-gradient(to right, #fccdbe, #e1a5d6, #b7c9e7);
+  padding: 1rem;
+}
+
+.navbar ol {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar ol a {
+  text-decoration: none;
+  color: white;
+}
