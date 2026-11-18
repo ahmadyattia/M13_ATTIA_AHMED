@@ -8,12 +8,37 @@
   src: url("./fonts/Lato/Lato-Regular.ttf");
 }
 
+@font-face {
+  font-family: "Lato Bold";
+  src: url("./fonts/Lato/Lato-Bold.ttf");
+}
+
 body {
   margin: 0;
 }
 
+#logo-and-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0.5rem 0;
+}
+
+#logo-and-title img {
+  width: 6rem;
+  aspect-ratio: 1 / 1;
+}
+
+#logo-and-title h1 {
+  color: #6d5184;
+  font-family: "Lato Bold";
+  font-size: 2.5rem;
+  margin: 0;
+  text-align: center;
+}
+
 .navbar {
-  font-family: "Montserrat Medium";
+  font-family: "Lato Regular";
   background-image: linear-gradient(to right, #fccdbe, #e1a5d6, #b7c9e7);
   padding: 1rem;
 }
