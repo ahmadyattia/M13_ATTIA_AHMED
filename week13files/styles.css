@@ -55,3 +55,19 @@ body {
   text-decoration: none;
   color: white;
 }
+
+#homepage-main {
+  margin: 0 1.5rem;
+}
+
+#page-title {
+  color: #6d5184;
+  font-family: "Lato Bold";
+  text-align: center;
+  margin: 1.3rem 0;
+}
+
+#page-subtitle {
+  font-family: "Lato Regular";
+  margin: 0;
+}
